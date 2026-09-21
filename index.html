@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fei Xue — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="top">
+  <div class="wrap">
+    <h1 class="logo">FX</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#pets">Pets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#contact" class="btn btn-solid header-btn">Contact Me</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ABOUT + SKILLS -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <div class="col-left about-box">
+        <h2>About</h2>
+        <div class="about-inner">
+          <img src="assets/profile.jpg" alt="Fei Xue profile photo" class="profile-photo">
+          <div class="about-text">
+            <p><strong>Fei Xue</strong> — MS Computer Science student at the University of New Haven.</p>
+            <p>Formerly a Senior Software Development Engineer at Sony, building embedded firmware
+            (C/C++, FreeRTOS) for wireless headphones. Now exploring full-stack and mobile
+            development while finishing my degree.</p>
+            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="btn-row">
+          <a href="#" class="btn">Resume PDF</a>
+          <a href="#contact" class="btn btn-solid">Contact</a>
+        </div>
+      </div>
+
+      <div class="col-right skills-box" id="skills-anchor">
+        <h2 id="skills">Skills</h2>
+        <div class="skill">
+          <label class="skill-label" for="skill-c">Embedded C/C++</label>
+          <progress id="skill-c" class="skill-bar" value="90" max="100">90%</progress>
+        </div>
+        <div class="skill">
+          <label class="skill-label" for="skill-rtos">RTOS / FreeRTOS</label>
+          <progress id="skill-rtos" class="skill-bar" value="85" max="100">85%</progress>
+        </div>
+        <div class="skill">
+          <label class="skill-label" for="skill-ble">Bluetooth / BLE</label>
+          <progress id="skill-ble" class="skill-bar" value="80" max="100">80%</progress>
+        </div>
+        <div class="skill">
+          <label class="skill-label" for="skill-stm32">STM32</label>
+          <progress id="skill-stm32" class="skill-bar" value="70" max="100">70%</progress>
+        </div>
+        <div class="skill">
+          <label class="skill-label" for="skill-py">Python</label>
+          <progress id="skill-py" class="skill-bar" value="65" max="100">65%</progress>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE + EDUCATION -->
+  <section class="section alt-bg">
+    <div class="wrap">
+      <div class="col-left card" id="experience-anchor">
+        <h2 id="experience">Experience</h2>
+        <div class="entry">
+          <h3>Senior Software Development Engineer — Sony</h3>
+          <time class="date" datetime="2018-07/2024-11">Jul 2018 – Nov 2024</time>
+          <p>Embedded C/C++ on FreeRTOS for wireless headphone / TWS products; worked across
+          Bluetooth, BLE, and audio profile stacks.</p>
+        </div>
+        <div class="entry">
+          <h3>Embedded Software Engineer — Palm Visa</h3>
+          <time class="date" datetime="2016-07/2018-06">Jul 2016 – Jun 2018</time>
+          <p>Bluetooth-enabled smart locks and safes on STM32 and RTL8762 platforms.</p>
+        </div>
+      </div>
+
+      <div class="col-right card">
+        <h2 id="education">Education</h2>
+        <div class="entry">
+          <h3>MS, Computer Science</h3>
+          <time class="date" datetime="2027-05">University of New Haven &middot; Expected May 2027</time>
+          <p>GPA 3.8 / 4.0</p>
+        </div>
+        <div class="entry">
+          <h3>B.Eng, Information Science</h3>
+          <time class="date" datetime="2016">Southeast University, Nanjing &middot; 2016</time>
+          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <ul class="project-row">
+        <li class="project-card">
+          <div class="project-thumb">Project 1</div>
+          <h3>Portfolio Website</h3>
+          <p>Personal site built with semantic HTML and hand-written CSS, no frameworks.</p>
+        </li>
+        <li class="project-card">
+          <div class="project-thumb">Project 2</div>
+          <h3>BLE Sensor Dashboard</h3>
+          <p>Real-time visualization tool for firmware sensor data.</p>
+        </li>
+        <li class="project-card last">
+          <div class="project-thumb">Project 3</div>
+          <h3>Canvas App Redesign</h3>
+          <p>Mobile UX wireframes exploring app flow improvements.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section alt-bg">
+    <div class="wrap">
+      <h2>Certifications</h2>
+      <ul class="badge-row">
+        <li class="badge">
+          <div class="badge-icon">&#127942;</div>
+          <span>AWS Cloud Practitioner</span>
+        </li>
+        <li class="badge">
+          <div class="badge-icon">&#127942;</div>
+          <span>Bluetooth SIG Developer</span>
+        </li>
+        <li class="badge last">
+          <div class="badge-icon">&#127891;</div>
+          <span>GPA 3.8 / 4.0 — MS CS</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- BLOGS -->
+  <section id="blogs" class="section">
+    <div class="wrap">
+      <h2>Blogs</h2>
+      <article class="blog-entry">
+        <h3>From Firmware to Full-Stack: Lessons Learned Switching Tracks</h3>
+        <p>A short article on moving from embedded systems work into full-stack and mobile
+        development, and what surprised me along the way.</p>
+        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PETS -->
+  <section id="pets" class="section alt-bg">
+    <div class="wrap">
+      <h2>Pets</h2>
+      <ul class="pet-row">
+        <li class="pet-item">
+          <img src="assets/dog.jpg" alt="Photo of a Pomeranian dog" class="pet-photo">
+          <p>My Pomeranian, always on debugging duty.</p>
+        </li>
+        <li class="pet-item last">
+          <img src="assets/cat.jpg" alt="Photo of a golden British Shorthair cat" class="pet-photo">
+          <p>My golden British Shorthair, keeper of deadlines.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit — feel free to reach out
+    through any of the links below.</p>
+    <ul class="social-row">
+      <li><a href="#" aria-label="X / Twitter">X</a></li>
+      <li><a href="#" aria-label="GitHub">GH</a></li>
+      <li><a href="#" aria-label="LinkedIn">in</a></li>
+      <li><a href="#" aria-label="Email">&#64;</a></li>
+    </ul>
+    <p class="copyright">&copy; 2026 Fei Xue. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
